@@ -1,4 +1,4 @@
-# Cinema (Valhalla)
+# Cinema
 
 **Version 1.6.4** (`CINEMA_VERSION` in `lib/paths.php`)
 
@@ -15,7 +15,7 @@ Personal movies and TV library for a LAN NAS. Browse posters, resume playback, m
 ## Setup
 
 1. Open `/cinema/`.
-2. **Settings**: set NAS root (default `/mnt/NASgard/video`).
+2. **Settings**: set NAS root (default `/mnt/NAS/video`).
 3. Create `Movies/` and `Series/` under that root (folder names are configurable).
 4. Paste a [TMDB API key](https://www.themoviedb.org/settings/api).
 5. **Scan library**, then **Fetch posters & info**.
@@ -25,7 +25,7 @@ English and Italian UI/TMDB language can be set in Settings. The current version
 ## Folder layout
 
 ```
-/mnt/NASgard/video/
+/mnt/NAS/video/
   Movies/
     The Matrix (1999)/The Matrix (1999).mp4
     Inception (2010).mp4
